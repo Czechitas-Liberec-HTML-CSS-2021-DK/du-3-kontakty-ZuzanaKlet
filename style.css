@@ -1,0 +1,83 @@
+/* nejsme vcerejsi, pouzivame moderni box model */
+
+html {
+    box-sizing: border-box;
+}
+
+*,
+ :after,
+ :before {
+    box-sizing: inherit;
+}
+
+body {
+    font-family: sans-serif;
+    font-size: 14px;
+}
+
+
+/* ---------------------------------------------------- */
+
+.h1 {
+    padding-right: 300px;
+    padding-left: 300px;
+}
+
+.zeny {
+    display: flex;
+    background-color: rgb(211, 211, 211);
+    border-radius: 30px;
+    max-width: 1300px;
+    margin: 2rem;
+}
+
+.hanka {
+    display: block;
+    width: 22%;
+    padding: 2rem;
+    margin: 2rem;
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+    border-radius: 30px;
+}
+
+.jana {
+    display: block;
+    width: 22%;
+    padding: 2rem;
+    margin: 2rem;
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+    border-radius: 30px;
+}
+
+.marketa {
+    display: block;
+    width: 22%;
+    padding: 2rem;
+    margin: 2rem;
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+    border-radius: 30px;
+}
+
+.monika {
+    display: block;
+    width: 22%;
+    padding: 2rem;
+    margin: 2rem;
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+    border-radius: 30px;
+}
+
+.ikony {
+    display: inline;
+    width: 35px;
+    height: 35px;
+}
+
+.image {
+    width: 150px;
+    border-radius: 50%;
+}
